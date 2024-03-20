@@ -68,7 +68,7 @@ int main(int argc, char **argv)
 	else
 	{
 		std::string env_pack_path;
-		priv_nh.param<std::string>("env_pack", env_pack_path, "ipa_room_segmentation");
+		priv_nh.param<std::string>("env_pack", env_pack_path, "cob_default_env_config");
 		std::string file_name;
 		priv_nh.param<std::string>("image", file_name, "map.pgm");
 		std::string map_name;
